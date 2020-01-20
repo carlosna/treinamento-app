@@ -34,9 +34,9 @@ Vagrant.configure(2) do |config|
     sudo apt-get update
     sudo apt-get install postgresql-9.6
 
-    curl -s -OL http://ftp.unicamp.br/pub/apache/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
-    sudo tar -zxf ./apache-maven-3.6.1-bin.tar.gz -C /usr/local/
-    sudo ln -s /usr/local/apache-maven-3.6.1/bin/mvn /usr/bin/mvn
+    curl -s -OL http://ftp.unicamp.br/pub/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+    sudo tar -zxf ./apache-maven-3.6.3-bin.tar.gz -C /usr/local/
+    sudo ln -s /usr/local/apache-maven-3.6.3/bin/mvn /usr/bin/mvn
 
     groupadd jboss
     useradd -s /bin/bash -g jboss -d /opt/jboss jboss
